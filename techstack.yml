@@ -1,7 +1,8 @@
 repo_name: kwongtn/strawberry-graphql-django
 report_id: 877936e1a4a41c48af37af79b209b91c
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:18:25+00:00'
+timestamp: '2024-01-04T15:05:22+00:00'
 requested_by: kwongtn
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/kwongtn/strawberry-graphql-django
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/kwongtn/strawberry-graphql-django
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -34,7 +37,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/main.yml"
+  detection_source_url: https://github.com/kwongtn/strawberry-graphql-django/blob/main/.github/workflows/actionlint.yml
+  detection_source: ".github/workflows/actionlint.yml"
   last_updated_by: Kwong Tung Nan
   last_updated_on: 2022-12-31 02:06:48.000000000 Z
 - name: PyPI
@@ -45,13 +49,14 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/kwongtn/strawberry-graphql-django/blob/main/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Lauri Hintsala
   last_updated_on: 2021-03-13 06:15:25.000000000 Z
 - name: Django
   description: A high-level Python Web framework that encourages rapid development
     and clean
-  package_url: https://pypi.org/Django
+  package_url: https://pypi.org/project/Django
   version: 3.2.16
   license: BSD-3-Clause
   open_source: true
@@ -59,7 +64,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19832/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
-  detection_source_url: examples/django/poetry.lock
+  detection_source_url: https://github.com/kwongtn/strawberry-graphql-django/blob/main/examples/django/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: KwongTN
   last_updated_on: 2023-05-08 15:29:39.000000000 Z
@@ -86,7 +91,7 @@ tools:
 - name: django-debug-toolbar
   description: A configurable set of panels that display various debug information
     about the current request/response
-  package_url: https://pypi.org/django-debug-toolbar
+  package_url: https://pypi.org/project/django-debug-toolbar
   version: 3.8.1
   license: BSD-3-Clause
   open_source: true
@@ -94,7 +99,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20671/default_d50ff54d48cd87d57b8eda5d2d945fe31fb2ac8a.png
-  detection_source_url: examples/django/poetry.lock
-  detection_source: pyproject.toml
+  detection_source_url: https://github.com/kwongtn/strawberry-graphql-django/blob/main/examples/django/poetry.lock
+  detection_source: examples/django/pyproject.toml
   last_updated_by: Frédéric Lebel
   last_updated_on: 2023-03-03 12:36:16.000000000 Z
