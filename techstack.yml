@@ -2,7 +2,7 @@ repo_name: kwongtn/strawberry-graphql-django
 report_id: 877936e1a4a41c48af37af79b209b91c
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:15:47+00:00'
+timestamp: '2024-02-29T18:14:11+00:00'
 requested_by: kwongtn
 provider: github
 branch: main
@@ -76,18 +76,18 @@ tools:
     detected_date: May 10
     severity: critical
     first_patched: 3.2.19
-  - name: Django has regular expression denial of service vulnerability in EmailValidator/URLValidator
-    cve_id: CVE-2023-36053
-    cve_url: https://github.com/advisories/GHSA-jh3w-4vvf-mjgr
-    detected_date: Jul 6
-    severity: high
-    first_patched: 3.2.20
   - name: Resource exhaustion in Django
     cve_id: CVE-2023-24580
     cve_url: https://github.com/advisories/GHSA-2hrw-hx67-34x6
     detected_date: Feb 16
     severity: high
     first_patched: 3.2.18
+  - name: Django has regular expression denial of service vulnerability in EmailValidator/URLValidator
+    cve_id: CVE-2023-36053
+    cve_url: https://github.com/advisories/GHSA-jh3w-4vvf-mjgr
+    detected_date: Jul 6
+    severity: high
+    first_patched: 3.2.20
 - name: django-debug-toolbar
   description: A configurable set of panels that display various debug information
     about the current request/response
